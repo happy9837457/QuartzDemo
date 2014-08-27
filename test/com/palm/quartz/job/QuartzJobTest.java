@@ -3,6 +3,7 @@ package com.palm.quartz.job;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.quartz.CronExpression;
 import org.quartz.CronScheduleBuilder;
 import org.quartz.JobBuilder;
 import org.quartz.JobDetail;
@@ -48,9 +49,17 @@ public class QuartzJobTest {
 		scheduler.start();
 		Thread.sleep(1000000);
 	}
+	
+//	@Test
+	public void testExpression() {// 验证quartz表达式是否正确
+		String expresssion = "0/1 * * * * ?";
+		boolean result = CronExpression.isValidExpression(expresssion);
+		System.out.println(result);
+	}
 
 	@After
 	public void tearDown() throws Exception {
+		
 	}
 
 }
