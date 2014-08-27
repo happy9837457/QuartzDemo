@@ -1,0 +1,5 @@
+在线quartz表达式
+http://www.hahuachou.com/cron/index.htm
+0/1 * * * * ? // 每秒执行一次
+0 /1 * * * ? // 每分钟执行一次
+0 0 20 * * ? // 每天20点执行

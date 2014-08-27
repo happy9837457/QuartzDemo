@@ -1,0 +1,32 @@
+2014-08-27 11:11:48,126 org.springframework.context.support.ClassPathXmlApplicationContext [main] INFO   - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e42593b: startup date [Wed Aug 27 11:11:48 CST 2014]; root of context hierarchy
+2014-08-27 11:11:48,211 org.springframework.beans.factory.xml.XmlBeanDefinitionReader [main] INFO   - Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2014-08-27 11:11:48,431 org.springframework.beans.factory.xml.XmlBeanDefinitionReader [main] INFO   - Loading XML bean definitions from class path resource [spring/job.xml]
+2014-08-27 11:11:48,548 org.springframework.beans.factory.support.DefaultListableBeanFactory [main] INFO   - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4c812efc: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,config,jobDetail,jobTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0,scheduleJob,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2014-08-27 11:11:48,718 org.quartz.impl.StdSchedulerFactory [main] INFO   - Using default implementation for ThreadExecutor
+2014-08-27 11:11:48,790 org.quartz.core.SchedulerSignalerImpl [main] INFO   - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-08-27 11:11:48,791 org.quartz.core.QuartzScheduler [main] INFO   - Quartz Scheduler v.2.2.1 created.
+2014-08-27 11:11:48,792 org.quartz.simpl.RAMJobStore [main] INFO   - RAMJobStore initialized.
+2014-08-27 11:11:48,793 org.quartz.core.QuartzScheduler [main] INFO   - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-08-27 11:11:48,793 org.quartz.impl.StdSchedulerFactory [main] INFO   - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2014-08-27 11:11:48,793 org.quartz.impl.StdSchedulerFactory [main] INFO   - Quartz scheduler version: 2.2.1
+2014-08-27 11:11:48,795 org.quartz.core.QuartzScheduler [main] INFO   - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@515f1fee
+2014-08-27 11:11:48,812 org.springframework.context.support.DefaultLifecycleProcessor [main] INFO   - Starting beans in phase 2147483647
+2014-08-27 11:11:48,812 org.springframework.scheduling.quartz.SchedulerFactoryBean [main] INFO   - Starting Quartz Scheduler now
+2014-08-27 11:11:48,812 org.quartz.core.QuartzScheduler [main] INFO   - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2014-08-27 11:11:48,815 com.palm.quartz.util.SpringHelper [main] INFO   - Spring init success.
+2014-08-27 11:11:48,823 com.palm.quartz.job.ScheduleJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] INFO   - ScheduleJob.execute...job
+2014-08-27 11:11:49,002 com.palm.quartz.job.ScheduleJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] INFO   - ScheduleJob.execute...job
+2014-08-27 11:11:50,003 com.palm.quartz.job.ScheduleJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] INFO   - ScheduleJob.execute...job
+2014-08-27 11:11:51,003 com.palm.quartz.job.ScheduleJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] INFO   - ScheduleJob.execute...job
+2014-08-27 11:11:52,001 com.palm.quartz.job.ScheduleJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] INFO   - ScheduleJob.execute...job
+2014-08-27 11:11:53,002 com.palm.quartz.job.ScheduleJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] INFO   - ScheduleJob.execute...job
+2014-08-27 11:11:54,002 com.palm.quartz.job.ScheduleJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] INFO   - ScheduleJob.execute...job
+2014-08-27 11:11:55,001 com.palm.quartz.job.ScheduleJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] INFO   - ScheduleJob.execute...job
+2014-08-27 11:11:56,003 com.palm.quartz.job.ScheduleJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] INFO   - ScheduleJob.execute...job
